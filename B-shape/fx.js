@@ -3,7 +3,7 @@ function fx(x,y,w,h){
     var point = new Point(x, y);
     var size = new Size(w, h);
     var pathfx = new Path.Rectangle(point, size);
-    pathfx.strokeColor = 'black';
+    pathfx.strokeColor = 'blue';
 	pathfx.fillColor='white';  
     
     
